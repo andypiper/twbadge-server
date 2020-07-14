@@ -1,0 +1,56 @@
+{
+  "v2": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "v2",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  },
+  "labs": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Labs",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  },
+  "ads": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Ads v7",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  },
+  "standard": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "v1.1",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  },
+  "premium": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Premium v1.1",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  },
+  "enterprise": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Enterprise v1.1",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "twbadge-server",
+  "description": "A server for JSON descriptions of Twitter API badges for shields.io",
+  "version": "0.1",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

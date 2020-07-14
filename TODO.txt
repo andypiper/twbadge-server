@@ -1,0 +1,6 @@
+- write simple README
+- deploy
+- finish package.json
+- more error handling
+- change all the URI paths
+
