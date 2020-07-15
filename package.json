@@ -2,7 +2,11 @@
   "name": "twbadge-server",
   "description": "A server for JSON descriptions of Twitter API badges for shields.io",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/andypiper/twbadge-server",
+  "bugs": {
+    "url": "https://github.com/andypiper/twbadge-server/issues"
+  },
   "dependencies": {
     "json-server": "^0.16.1"
   },
