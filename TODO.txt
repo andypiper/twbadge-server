@@ -2,6 +2,6 @@
 - finish package.json
 - more error handling
 - make copy-to-clipboard buttons
-- link to shields.io
+
 
 
