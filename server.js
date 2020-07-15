@@ -13,6 +13,7 @@ server.use(middlewares)
 // hang the API off the /badges base route
 server.use('/badges', router)
 
-server.listen(3030, () => {
-  console.log('Twitter API Badges Server is running')
+server.listen(process.env.PORT, () => {
+  console.log('Twitter API Badges Server is running on port ' + process.env.PORT)
+  console.log('')
 })

@@ -17,10 +17,19 @@
     "namedLogo": "Twitter",
     "cacheSeconds": 300
   },
-  "ads": {
+  "adsv7": {
     "schemaVersion": 1,
     "label": "Twitter API",
     "message": "Ads v7",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 300
+  },
+  "ads": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Ads",
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
