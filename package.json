@@ -1,9 +1,16 @@
 {
   "name": "twbadge-server",
   "description": "A server for JSON descriptions of Twitter API badges for shields.io",
-  "version": "0.1",
-  "license": "Apache-2.0",
+  "version": "0.0.1",
+  "license": "MIT",
   "dependencies": {
     "json-server": "^0.16.1"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   }
 }
