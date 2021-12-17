@@ -2,6 +2,11 @@
 - finish package.json
 - more error handling
 - make copy-to-clipboard buttons
+- add favicon.ico (or equivalent)
+- add home screen icons
+- add CoC
+- (GH) add templates / settings
 
 
-
+Notes
+If "vendor unresponsive" try tweaking the cache value

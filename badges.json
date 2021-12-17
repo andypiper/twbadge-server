@@ -6,7 +6,7 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
   },
   "labs": {
     "schemaVersion": 1,
@@ -15,7 +15,34 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
+  },
+  "adsv10": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Ads v10",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 600
+  },
+  "adsv9": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Ads v9",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 600
+  },
+  "adsv8": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Ads v8",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 600
   },
   "adsv7": {
     "schemaVersion": 1,
@@ -24,7 +51,7 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
   },
   "ads": {
     "schemaVersion": 1,
@@ -33,7 +60,7 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
   },
   "standard": {
     "schemaVersion": 1,
@@ -42,7 +69,7 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
   },
   "premium": {
     "schemaVersion": 1,
@@ -51,7 +78,7 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
   },
   "enterprise": {
     "schemaVersion": 1,
@@ -60,6 +87,6 @@
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
-    "cacheSeconds": 300
+    "cacheSeconds": 600
   }
 }

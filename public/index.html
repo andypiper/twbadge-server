@@ -1,74 +1,199 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en">
-  <!--<![endif]-->
-
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Twitter API Badge Server</title>
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="og:type" content="article" />
+    <meta name="og:title" content="Twitter API version badges" />
+    <meta name="og:description" content="Twitter API badges with Shields.io" />
+    <meta name="og:image" content="" />
     <meta
       name="description"
-      content="A tiny JSON server providing badge data for shields.io"
+      content="A tiny JSON server providing custom badge data for shields.io"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
       crossorigin="anonymous"
     />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
   </head>
 
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-    <main role="main" class="container">
-      <h1>Twitter API Badges</h1>
-      <div>
-        <p class="lead">
+    <script>
+      // setup clipboard
+      var clipboard = new ClipboardJS(".btn");
+    </script>
+
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Twitter API Version Badges
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <main role="main" class="block container">
+      <section class="box container">
+        <div class="block">
           Curious? Read about the Twitter API at
           <a href="https://developer.twitter.com">developer.twitter.com</a>
-        </p>
-      </div>
+        </div>
 
-      <div>
-        This site serves data for <a href="https://shields.io">Shields.io</a> to
-        provide nice badges for your Open Source README files, to indicate which
-        Twitter API versions or features your project supports.
-      </div>
+        <div class="block">
+          This site serves data for
+          <a href="https://shields.io">Shields.io</a> to provide nice badges for
+          your Open Source README files, to indicate which Twitter API versions
+          or features your project supports.
+        </div>
+        
+                   <!--         <button
+          class="btn is-small"
+          data-clipboard-text="&lt;img src=&quot;https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2&quot; alt=&quot;Twitter API v2 badge&quot; /&gt;"
+        >
+          <span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span>
+          <span>HTML</span>
+        </button> -->
 
-      <div>
-        &nbsp;
-      </div>
+        <div class="block">
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2"
+                alt="Twitter API v2 badge"
+              />
+<!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
 
-      <div>
-        <img
-          src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2"
-        /><br />
-        <img
-          src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Flabs"
-        /><br />
-        <img
-          src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fadsv7"
-        /><br />
-        <img
-          src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fstandard"
-        /><br />
-        <img
-          src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fpremium"
-        /><br />
-        <img
-          src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fenterprise"
-        /><br />
-      </div>
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fadsv10"
+                alt="Twitter API Ads v10 badge"
+              />
+              <!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fadsv9"
+                alt="Twitter API Ads v9 badge"
+              />
+              <!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+          
+          
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fstandard"
+                alt="Twitter API v1.1 badge"
+              />
+              <!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fpremium"
+                alt="Twitter API Premium v1.1 badge"
+              />
+              <!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fenterprise"
+                alt="Twitter API Enterprise v1.1 badge"
+              />
+              <!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Flabs"
+                alt="Twitter Developer Labs badge"
+              />
+<!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+      </section>
     </main>
   </body>
 </html>

@@ -1,17 +1,19 @@
 {
   "name": "twbadge-server",
   "description": "A server for JSON descriptions of Twitter API badges for shields.io",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "Apache-2.0",
   "homepage": "https://github.com/andypiper/twbadge-server",
   "bugs": {
     "url": "https://github.com/andypiper/twbadge-server/issues"
   },
   "dependencies": {
-    "json-server": "^0.16.1"
+    "helmet": "^4.4.1",
+    "json-server": "^0.16.3",
+    "merge-descriptors": "^1.0.1"
   },
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "main": "server.js",
   "scripts": {
