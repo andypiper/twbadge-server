@@ -8,7 +8,7 @@ It can also serve as a simple example for how you can set up a similar system to
 
 ## Prerequisites
 
-Before you begin, you'll need a Node.js runtime. It was built and is running on Glitch, and should work with Node 10, 11 or 12 (currently being built and run on 12.x LTS)
+Before you begin, you'll need a Node.js runtime. It was built and is running on Glitch, and should work with Node 10 through 16 (currently being built and run on Node 16.x)
 
 ## Installing TwBadge-Server
 
