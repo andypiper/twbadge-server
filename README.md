@@ -1,6 +1,6 @@
 # TwBadge-Server
 
-[![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/twbadges/blob/master/LICENSE) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
+[![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/twbadges/blob/main/LICENSE) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
 
 TwBadges is a simple JSON server that provides data to support Shields.io custom badges for your Open Source README files, to indicate which Twitter API versions or features your project supports.
 
