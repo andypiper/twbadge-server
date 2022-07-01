@@ -14,4 +14,3 @@ Served from https://twbadges.glitch.me
 [![Premium](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fpremium)](https://developer.twitter.com/en/docs/twitter-api/premium)
 
 [![Enterprise](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fenterprise)](https://developer.twitter.com/en/docs/twitter-api/enterprise)
-
