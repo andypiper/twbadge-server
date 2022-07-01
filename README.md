@@ -29,7 +29,7 @@ This does two things:
 
 ## Contributing to TwBadge-Server
 
-Pull requests are welcomed. Code of conduct thing
+Pull requests are welcomed. 
 
 ## License
 
