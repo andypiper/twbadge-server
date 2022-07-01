@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/twbadges/blob/main/LICENSE) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
 
-TwBadges is a simple JSON server that provides data to support Shields.io custom badges for your Open Source README files, to indicate which Twitter API versions or features your project supports.
+TwBadges is a simple JSON server that provides data to support [Shields.io](https://shields.io) custom badges for your Open Source README files, to indicate which [Twitter API](https://developer.twitter.com) versions or features your project supports.
 
 It can also serve as a simple example for how you can set up a similar system to support your own shields.io/endpoint badges.
 
@@ -25,7 +25,7 @@ $ node server.js
 This does two things:
 
 - uses Express to serve `public/index.html` as a trivial front end webpage, which shows the available badges
-- uses json-server to serve a read-only JSON API behind `<hostname>/badges` that delivers each of the individually-named JSON stanzas on `<hostname>/badges/<stanza>`, suitable for use with the Shields.io Endpoint API for custom badges.
+- uses json-server to serve a read-only JSON API behind `<hostname>/badges` that delivers each of the individually-named JSON stanzas on `<hostname>/badges/<stanza>`, suitable for use with the [Shields.io Endpoint API](https://shields.io/endpoint) for custom badges.
 
 ## Contributing to TwBadge-Server
 
