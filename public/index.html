@@ -7,7 +7,10 @@
     <meta name="twitter:card" content="summary" />
     <meta name="og:type" content="article" />
     <meta name="og:title" content="Twitter API version badges" />
-    <meta name="og:description" content="Twitter API badges with Shields.io" />
+    <meta
+      name="og:description"
+      content="Twitter API version badges for everyone, with Shields.io"
+    />
     <meta name="og:image" content="" />
     <meta
       name="description"
@@ -16,14 +19,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
-      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
     <script
       defer
-      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+      src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <script
+      crossorigin="anonymous"
+      src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+    ></script>
+
+    <!-- make sure the twemoji are sized for the text -->
+    <style>
+      img.emoji {
+        height: 1em;
+        width: 1em;
+        margin: 0 0.05em 0 0.1em;
+        vertical-align: -0.1em;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,28 +50,35 @@
     <section class="hero">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
-            Twitter API Version Badges
-          </h1>
+          <h1 class="title">Twitter API Version Badges</h1>
         </div>
       </div>
     </section>
 
-    <main role="main" class="block container">
+    <main class="block container">
       <section class="box container">
         <div class="block">
-          Curious? Read about the Twitter API at
-          <a href="https://developer.twitter.com">developer.twitter.com</a>
+          This site serves data for
+          <a href="https://shields.io">Shields.io</a> to provide eye-catching badges for
+          your Open Source 📝 README files and websites, to indicate which
+          Twitter API versions or features your project supports.
         </div>
 
         <div class="block">
-          This site serves data for
-          <a href="https://shields.io">Shields.io</a> to provide nice badges for
-          your Open Source README files, to indicate which Twitter API versions
-          or features your project supports.
+          Here is an example
+          <a target="_blank" href="./gallery.md"
+             >📄 Markdown file</a> (opens in new tab) with links to relevant documentation. You can use the badges in HTML, ReStructured Text
+            or other formats, too.
         </div>
-        
-                   <!--         <button
+
+        <div class="block">
+          Want to learn more?
+          <a href="https://t.co/signup"
+            >Sign up for and read about the Twitter API.</a
+          >
+        </div>
+
+        <!--         <button
           class="btn is-small"
           data-clipboard-text="&lt;img src=&quot;https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2&quot; alt=&quot;Twitter API v2 badge&quot; /&gt;"
         >
@@ -70,8 +92,28 @@
               <img
                 src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2"
                 alt="Twitter API v2 badge"
+                crossorigin="anonymous"
               />
-<!--               <div class="level-item">
+              <!--               <div class="level-item">
+                &nbsp;
+              </div>
+              <div class="level-item buttons are-small">
+                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
+                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="level">
+            <div class="level-left">
+              <img
+                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fadsv11"
+                alt="Twitter API Ads v11 badge"
+                crossorigin="anonymous"
+              />
+              <!--               <div class="level-item">
                 &nbsp;
               </div>
               <div class="level-item buttons are-small">
@@ -88,6 +130,7 @@
               <img
                 src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fadsv10"
                 alt="Twitter API Ads v10 badge"
+                crossorigin="anonymous"
               />
               <!--               <div class="level-item">
                 &nbsp;
@@ -104,27 +147,9 @@
           <div class="level">
             <div class="level-left">
               <img
-                src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fadsv9"
-                alt="Twitter API Ads v9 badge"
-              />
-              <!--               <div class="level-item">
-                &nbsp;
-              </div>
-              <div class="level-item buttons are-small">
-                <button class="button btn" title="Copy HTML"><span class="icon is-small"><i class="far fa-file-code" aria-hidden="true"></i></span></button>
-                <button class="button btn" title="Copy Markdown"><span class="icon is-small"><i class="fab fa-markdown" aria-hidden="true"></i></span></button>
-                <button class="button btn" title="Copy RestructuredText"><span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span></button>
-                <button class="button btn" title="What is this?"><span class="icon is-small"><i class="far fa-question-circle" aria-hidden="true"></i></span></button>
-              </div> -->
-            </div>
-          </div>
-          
-          
-          <div class="level">
-            <div class="level-left">
-              <img
                 src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fstandard"
                 alt="Twitter API v1.1 badge"
+                crossorigin="anonymous"
               />
               <!--               <div class="level-item">
                 &nbsp;
@@ -143,6 +168,7 @@
               <img
                 src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fpremium"
                 alt="Twitter API Premium v1.1 badge"
+                crossorigin="anonymous"
               />
               <!--               <div class="level-item">
                 &nbsp;
@@ -161,6 +187,7 @@
               <img
                 src="https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fenterprise"
                 alt="Twitter API Enterprise v1.1 badge"
+                crossorigin="anonymous"
               />
               <!--               <div class="level-item">
                 &nbsp;
@@ -173,9 +200,37 @@
               </div> -->
             </div>
           </div>
+          <hr />
+        </div>
 
+        <div class="block">
+          Discover ⚡
+          <a href="https://github.com/andypiper/awesome-modern-twitter-api"
+            >Awesome Modern Twitter API</a
+          >
+          libraries in your favorite coding language, and 📣
+          <a href="https://twittercommunity.com/c/libraries-and-sdks/"
+            >announce</a
+          >
+          if you build one.
+        </div>
+
+        <div class="block">
+          <a
+            href="https://twitter.com/twitterdev"
+            class="twitter-follow-button"
+            data-show-count="false"
+            >Follow @twitterdev</a
+          >
+          <script async src="https://platform.twitter.com/widgets.js"></script>
         </div>
       </section>
     </main>
+    <script>
+      (function () {
+        // swap in pretty Twitter emoji
+        document.body = twemoji.parse(document.body);
+      })();
+    </script>
   </body>
 </html>

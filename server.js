@@ -15,6 +15,8 @@ const middlewares = jsonServer.defaults({
 server.use(
   helmet({
     contentSecurityPolicy: false,
+    crossOriginEmbedderPolicy: false,
+    crossOriginResourcePolicy: false
   })
 )
 
@@ -34,5 +36,5 @@ server.use(middlewares)
 server.use('/badges', router)
 
 server.listen(process.env.PORT, () => {
-  console.log('Twitter API Badges Server is running on port ' + process.env.PORT)
+  console.log('Twitter API Version Badge Server is running on port ' + process.env.PORT)
 })

@@ -17,6 +17,15 @@
     "namedLogo": "Twitter",
     "cacheSeconds": 600
   },
+  "adsv11": {
+    "schemaVersion": 1,
+    "label": "Twitter API",
+    "message": "Ads v11",
+    "labelColor": "182430",
+    "color": "1DA1F2",
+    "namedLogo": "Twitter",
+    "cacheSeconds": 600
+  },
   "adsv10": {
     "schemaVersion": 1,
     "label": "Twitter API",
@@ -30,24 +39,6 @@
     "schemaVersion": 1,
     "label": "Twitter API",
     "message": "Ads v9",
-    "labelColor": "182430",
-    "color": "1DA1F2",
-    "namedLogo": "Twitter",
-    "cacheSeconds": 600
-  },
-  "adsv8": {
-    "schemaVersion": 1,
-    "label": "Twitter API",
-    "message": "Ads v8",
-    "labelColor": "182430",
-    "color": "1DA1F2",
-    "namedLogo": "Twitter",
-    "cacheSeconds": 600
-  },
-  "adsv7": {
-    "schemaVersion": 1,
-    "label": "Twitter API",
-    "message": "Ads v7",
     "labelColor": "182430",
     "color": "1DA1F2",
     "namedLogo": "Twitter",
