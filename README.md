@@ -48,7 +48,7 @@ This does two things:
 
 ## Contributing to TwBadge-Server
 
-Pull requests are welcomed. The web front-end is pretty simple right now.
+Pull requests are welcomed. The web front-end is pretty simple right now, using the [Bulma](https://bulma.io) CSS framework. I don't anticipate that many changes should be needed to the server side of the code, but let me know if you spot any issues.
 
 ## License
 
